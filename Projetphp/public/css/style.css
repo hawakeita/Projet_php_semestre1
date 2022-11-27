@@ -1,0 +1,41 @@
+.auteur table,td,th{
+    border: 1px solid brown;
+    border-radius: 4px;
+
+}
+.auteur table{
+    border-collapse:collapse;
+    width: 80%;
+    margin: 4% 10%;
+    border-right: 10px;
+}
+.auteur{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+.conteneur{
+    width: 50%;
+    height: 50%;
+    border-right: 20;
+}
+.menu ul{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
